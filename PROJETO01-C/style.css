@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+
+}
+
+header{
+    width: 1903px;
+    height: 175px;
+    background-color: #999BA1;
+}
+
+.area-menu{
+    text-align: right;
+    margin-top: -85px;
+    margin-right: 80px;
+}
+
+.area-menu a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 8px;
+    border-radius: 6px;
+    transition: .3s;
+    color: #fff;
+}
+
+.area-menu a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.logo{
+    width: 140px;
+    margin-left: 60px;
+    margin-top: 18.5px;
+}
+
+/* MAIN 1 */
+
+.mprim{
+    background-image: url(./img/transito-em-sao-paulo.jpeg);
+    width: 1903px;
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inf{
+    width: 1903px;
+    padding: 3rem;
+}
+
+.infseg{
+    margin: 2rem 0 1rem 0;
+    font-size: 2.5rem;
+    line-height: 90%;
+    width: 1903px;
+    padding: 3rem;
+}
+
+.inf h1{
+    color: #fff;
+    font-family: 'Haruman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.infseg p{
+    color: #fff;
+    font-family: 'Haruman';
+    font-style: normal;
+    font-size: 2.4rem;
+    line-height: 1.4;
+    margin: 1.4rem 0;
+}
+
+/* MAIN 2 */
+
+.mseg{
+    text-align: right;
+    position: relative;
+    width: 1903px;
+    height: 753px;
+
+    background-color: #999ba2;
+}
+
+.ftseg1{
+    position: absolute;
+    width: 330px;
+    height: 540px;
+    left: 388px;
+    top: 145px;
+}
+
+.ftseg2{
+    position: absolute;
+    width: 330px;
+    height: 540px;
+    left: 114px;
+    top: 60px;
+}
+
+.textf{
+    position: absolute;
+    width: 544px;
+    height: 649px;
+    right: 0;
+    margin-right: 266px;
+}
+
+.textf p{
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Haruman';
+    text-align: center;
+    margin-top: 120px;
+}
+
+/* MAIN 3 */
+
+.mtres{
+    width: 1903px;
+    height: 400px;
+
+    background-color: white;
+}
+
+.c1{
+    background-color: #D3D3D3;
+    position: absolute;
+    width: 376px;
+    height: 237px;
+    left: 1505px;
+    top: 1915px;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #000;
+}
+
+.c2{
+    position: absolute;
+    width: 376px;
+    height: 237px;
+    left: 930px;
+    top: 1915px;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #000;
+
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.c3{
+    position: absolute;
+    width: 376px;
+    height: 237px;
+    left: 330px;
+    top: 1915px;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #000;
+
+    background: #D9D9D9;
+    border-radius: 20px;
+
+}
+
+.c1 h1, .c2 h1, .c3 h1{
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    bottom: 50px;
+}
+
+.c1 p, .c2 p, .c3 p{
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    position: absolute;
+    width: 1903px;
+    height: 138px;
+    left: 0px;
+
+    background: #999BA1;
+}
+
+.finalp{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.inform{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 40px;
+}
